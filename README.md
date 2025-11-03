@@ -39,3 +39,14 @@ The Personal Portfolio Website highlights professional and personal growth throu
 
 This is a live personal website hosted on GitHub pages. You can explore it directly at: https://nitya-star.github.io
 Each section can be accessed through the navigation bar.
+
+## Technical Skills Demonstrated
+
+* **Language & Tools:** HTML5, CSS3, Visual Studio Code, GitHub pages
+* **Design Content:** Flexbox, Box Model, responsive layout, color contrast
+* **Accessibility Practices:** Semantic HTML, readable structure, consistent navigation
+* **Version Control:** Git and GitHub for project hosting and updates
+
+## Purpose
+
+This website was developed as a personal initiative to present both academic and creative growth, while building an accessible and visually clear platform for co-op and professional opportunities. It reflects a belief that thoughtful design and structure can communicate personality and professionalism effectively, even through simple technologies.
