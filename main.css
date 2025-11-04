@@ -59,3 +59,13 @@ a:hover {
   color: #003366;
 }
 
+ol > li {
+  color: #003366;
+  margin-top: 1.3em;
+  margin-bottom: 0.2em;
+  font-size: large;
+}
+
+p {
+  margin: 0em;
+}
