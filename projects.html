@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Projects | Nitya Shah</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="projects.css">
 </head>
+
 <body>
   <header>
     <h1>Projects</h1>
@@ -21,42 +24,125 @@
 
   <main>
     <h2>Some Academic Projects</h2>
-    <p>Below are several academic projects that demonstrate my learning and problem-solving approach in Computer Science. Each project includes the course code and name, the term during which it was completed, a brief description, and a link to its GitHub repository.</p>
+    <p>Below are several academic projects that demonstrate my learning and problem-solving approach in Computer
+      Science. Each project includes the course code and name, the term during which it was completed, a brief
+      description, and a link to its GitHub repository.</p>
 
-    <ol>
-      <li><strong>Stack Implementation</strong></li>
-      <p><b>Course Code & Name:</b> COIS 2020H - Data Structures & Algorithms I (Winter 2025)</p>
-      <p>This project showcases a fundamental implementation of a Stack data structure in C#, built entirely from memory during a closed-book test at Trent University.</p>
-      <p>Using a linked list, it supports core stack operations including push, pop, isEmpty, and display, through a menu-driven interface. Developed in Visual Studio Code, the project demonstrates proficiency in object-oriented programming, algorithmic logic, and error handling, while reinforcing key data structure concepts under time constraints.</p>
-      <p><b>Link:</b> <a href="https://github.com/Nitya-star/StackImplementation" target="_blank">Stack Implementation Project</a></p>
+    <section class="projects-section">
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-gif"><img src="./Projects_GIFs/MovieStreamingAppGIF.gif" alt="Movie Streaming App Demo">
+          </div>
+          <div class="project-info">
+            <h3>Movie Streaming App</h3>
+            <p class="tech-stack">PHP | SQL | React | ThunderClient</p>
+            <ul>
+              <li>Engineered a relational database schema to handle <b>4000+ dynamic movie entries</b> with full data
+                integrity.</li>
+              <li>Developed secure user authentication protocols and persistent watchlist states using PHP Session
+                management.</li>
+              <li>Developed a <b>dynamic search and filtering system</b> using SQL queries to sort movie data by genre
+                and
+                rating.</li>
+              <li>Optimized SQL queries to ensure sub-second response times for complex list searches.</li>
+            </ul>
+            <a href="https://github.com/Nitya-star/MovieStreamingApp" class="btn-secondary">View Code for Movie
+              Streaming App</a>
+          </div>
+        </div>
 
-      <li><strong>Accessible Web Components</strong></li>
-      <p><b>Course Code & Name:</b> COIS 2430H - Web Development I: Front-end (Winter 2025)</p>
-      <p>This project demonstrates the development of accessible and responsive web components using HTML5 and CSS3, built as a coursework project at Trent University.</p>
-      <p>It includes semantic layouts, accessible navigation, and properly structured tables and forms. Designed and tested in Visual Studio Code, it emphasizes usability, readability, and clean visual hierarchy while following WCAG accessibility principles, reflecting strong understanding of inclusive and structured web design.</p>
-      <p><b>Link:</b> <a href="https://github.com/Nitya-star/AccessibleWebComponents" target="_blank">Accessible Web Components Project</a></p>
+        <div class="project-card">
+          <div class="project-gif"><img src="./Projects_GIFs/StackImplementationGIF.gif" alt="Stack Application Demo">
+          </div>
+          <div class="project-info">
+            <h3>Stack Implementation</h3>
+            <p class="tech-stack">C# | .NET Core | Visual Studio Code</p>
+            <ul>
+              <li>Developed a custom Stack implementation using <b>Linked List</b> to manage dynamic memory allocation.
+              </li>
+              <li>Achieved <b>O(1) time complexity</b> for all core operations (Push, Pop, isEmpty) through optimized
+                pointer logic.</li>
+              <li>Completed as a <b>closed-book technical assessment</b>, implementing the entire structure and logic
+                from
+                memory with 100% syntax accuracy.</li>
+              <li>Designed an interactive <b>switch-case menu interface</b> that handles real-time user input and
+                validates the
+                stack's state after every operation.</li>
+            </ul>
+            <a href="https://github.com/Nitya-star/StackImplementation" class="btn-secondary">View Code for Stack
+              Implementation</a>
+          </div>
+        </div>
 
-      <li><strong>Word Scramble</strong></li>
-      <p><b>Course Code & Name:</b> COIS 3430H - Web Development II: Server-side (Summer 2025)</p>
-      <p>This project showcases backend web development using PHP and MySQL, built as part of coursework at Trent University.</p>
-      <p>It features a session-based word scramble game with a dynamic leaderboard and persistent score storage. The project demonstrates skills in form handling, string and array manipulation, session management, and database integration. It highlights the ability to develop interactive, data-driven web applications while maintaining semantic HTML, accessibility, and clean, maintainable code.</p>
-      <p><b>Link:</b> <a href="https://github.com/Nitya-star/WordScramble" target="_blank">Word Scramble Project</a></p>
+        <div class="project-card">
+          <div class="project-gif"><img src="./Projects_GIFs/WordScrambleGIF.gif" alt="Word Scramble Demo"></div>
+          <div class="project-info">
+            <h3>Word Scramble Game</h3>
+            <p class="tech-stack">PHP | Session State</p>
+            <ul>
+              <li>Architected server-side logic to maintain game state across <b>multiple concurrent user sessions</b>.
+              </li>
+              <li>Used a randomized shuffling function that ensures unique game patterns across <b>a number of
+                  iterations</b>.</li>
+              <li>Implemented instant server-side validation to prevent client-side score manipulation.</li>
+              <li>Designed a responsive UI that maintains 100% functionality across desktop and mobile browsers.</li>
+            </ul>
+            <a href="https://github.com/Nitya-star/WordScramble" class="btn-secondary">View Code for Word Scramble</a>
+          </div>
+        </div>
 
-      <li><strong>Movie Streaming App</strong></li>
-      <p><b>Course Code & Name:</b> COIS 3430H - Web Development II: Server-side (Summer 2025)</p>
-      <p>This full-stack web application, developed as part of coursework at Trent University, enables users to manage and review movies through personalized watchlists.</p>
-      <p>Built with PHP, MySQL, React, and TypeScript, it features secure authentication, RESTful APIs, and a responsive frontend. The project demonstrates strong skills in full-stack development, including backend routing, database integration, state management, and API communication, while ensuring accessibility, usability, and modern design practices across both the server and client sides.</p>
-      <p><b>Link:</b> <a href="https://github.com/Nitya-star/MovieStreamingApp" target="_blank">Movie Streaming App Project</a></p>
+        <div class="project-card">
+          <div class="project-gif"><img src="./Projects_GIFs/AccessibleWebComponentsGIF.gif"
+              alt="Accessible Web Components Demo"></div>
+          <div class="project-info">
+            <h3>Accessible Web Components</h3>
+            <p class="tech-stack">HTML5 | CSS3 | JavaScript</p>
+            <ul>
+              <li>Achieved a <b>100/100 Lighthouse Accessibility score</b> for the resume page by implementing
+                high-contrast ratios.</li>
+              <li>Designed user-centric navigation components following <b>WCAG 2.1 AA standards</b> for inclusive
+                design.</li>
+              <li>Maintained a <b>clean and modular code structure</b> by separating logical components, ensuring the
+                project is easily readable
+                and maintainable for future updates.</li>
+              <li>Performed <b>Cross-Browser Validation</b> using Chrome DevTools to ensure consistent UI rendering and
+                functional parity
+                across multiple browser engines.</li>
+            </ul>
+            <a href="https://github.com/Nitya-star/AccessibleWebComponents" class="btn-secondary">View Code for
+              Accessible Web Components</a>
+          </div>
+        </div>
+      </div>
 
-      <li><strong>Graph Implementation</strong></li>
-      <p><b>Course Code & Name:</b> COIS 3020H - Data Structures and Algorithms II (Fall 2025)</p>
-      <p>This project models a weighted directed graph to calculate the shortest path between two locations, developed as part of coursework at Trent University.</p>
-      <p>Built in C#, it uses adjacency lists for efficient graph representation, reads data from a JSON file, and applies Dijkstra’s algorithm for shortest path computation. The project demonstrates skills in algorithm design, data structure implementation, file parsing, and error handling within a practical route optimization context.</p>
-      <p><b>Link:</b> <a href="https://github.com/Nitya-star/GraphImplementation" target="_blank">Graph Implementation Project</a></p>
+      <div class="project-card">
+        <div class="project-gif"><img src="./Projects_GIFs/GraphImplementationGIF.gif" alt="Graph Implementation Demo">
+        </div>
+        <div class="project-info">
+          <h3>Graph Implementation</h3>
+          <p class="tech-stack">C# | .NET Core | Visual Studio Code</p>
+          <ul>
+            <li>Implemented <b>Dijkstra's shortest path algorithm</b>, choosing it for its O(n^2) efficiency compared to
+              the slower
+              O(n^3) performance of Bellman Ford.</li>
+            <li>Structured the network <b>using Adjacency List</b>, which allowed for faster node lookups and more efficient
+              memory usage
+              than a standard 2D array.</li>
+            <li>Developed a custom path-reconstruction logic that traces back through "previous" node dictionaries to
+              output a clear, step-by-step route for the user.</li>
+            <li>Designed the system to handle <b>weighted edges (minutes)</b>, ensuring the algorithm calculates the true
+              fastest time rather than just the shortest distance.</li>
+          </ul>
+          <a href="https:/github.com/Nitya-star/GraphImplementation" class="btn-secondary">View Code for Graph
+            Implementation</a>
+        </div>
+      </div>
+    </section>
   </main>
 
   <footer>
-    <p>© 2025 Nitya Shah</p>
+    <p>© 2026 Nitya Shah</p>
   </footer>
 </body>
+
 </html>
