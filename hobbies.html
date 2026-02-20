@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Hobbies | Nitya Shah</title>
   <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="hobbies.css">
 </head>
+
 <body>
   <header>
     <h1>Hobbies & Interests</h1>
@@ -19,18 +22,39 @@
     </nav>
   </header>
 
-  <main>
+  <main class="hobbies-container">
     <h2>Passions That Keep Me Inspired</h2>
-    <p>Outside of my studies, I enjoy activities that strengthen my creativity and reasoning.</p>
-    <ul>
-      <li><strong>Watching Mystery Movies:</strong> I enjoy analyzing mystery films that highlight how the same situation can be interpreted from multiple perspectives, helping me appreciate diverse viewpoints and think more analytically.</li>
-      <li><strong>Playing Card Games:</strong> I enjoy strategic card games that require focus, planning, and adaptability, helping me strengthen my decision-making and problem-solving skills in dynamic situations.</li>
-      <li><strong>Enjoying My Work:</strong> I believe that more we enjoy our work, the closer we get to perfection. And the more perfection we achieve in our work, the stronger our desire becomes to keep improving it.</li>
-    </ul>
+    <p class="intro-text">Outside of my studies, I enjoy activities that strengthen my creativity and reasoning.</p>
+
+    <div class="hobbies-grid">
+      <div class="hobby-card perspective">
+        <div class="hobby-icon">🔍</div>
+        <h3>Mystery & Analysis</h3>
+        <p>Analyzing mysteries keeps my mind sharp by challenging me to piece together incomplete information. It encourages a 
+          structured approach to thinking where I must evaluate every detail before reaching conclusion.</p>
+        <span class="skill-pill">Analytical Thinking</span>
+      </div>
+
+      <div class="hobby-card strategy">
+        <div class="hobby-icon">🃏</div>
+        <h3>Strategic Card Games</h3>
+        <p>Engaging in strategic card games that demand high levels of focus and planning. These games allow me to practice 
+          adapting to changing information and making calculated decisions in dynamic, fast-paced situations.</p>
+        <span class="skill-pill">Strategic Planning</span>
+      </div>
+    </div>
+
+    <section class="philosophy-box">
+      <blockquote>
+        "I believe that the more we enjoy our work, the closer we get to perfection. The more perfection we achieve, the
+        stronger our desire becomes to keep improving it."
+      </blockquote>
+    </section>
   </main>
 
   <footer>
     <p>© 2026 Nitya Shah</p>
   </footer>
 </body>
+
 </html>
